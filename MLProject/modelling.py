@@ -11,9 +11,6 @@ if __name__ == "__main__":
     warnings.filterwarnings("ignore")
     np.random.seed(42)
 
-    # Setup MLflow
-    mlflow.set_experiment("Airline_Passenger_Satisfaction")
-
     # Argumen MLProject
     n_estimators = int(sys.argv[1]) if len(sys.argv) > 1 else 100
     max_depth = int(sys.argv[2]) if len(sys.argv) > 2 else 20
@@ -35,7 +32,7 @@ if __name__ == "__main__":
     # Contoh data input
     input_example = X_train[0:5]
 
-    with mlflow.start_run(run_name="CI_GitHub_Artifacts"):
+    with mlflow.start_run():
 
         # Log parameters
         mlflow.log_param("n_estimators", n_estimators)
