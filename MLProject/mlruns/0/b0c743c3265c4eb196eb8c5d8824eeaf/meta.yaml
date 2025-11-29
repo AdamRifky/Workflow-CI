@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/MLProject/mlruns/0/b0c743c3265c4eb196eb8c5d8824eeaf/artifacts
+end_time: 1764402339793
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b0c743c3265c4eb196eb8c5d8824eeaf
+run_name: melodic-sheep-417
+run_uuid: b0c743c3265c4eb196eb8c5d8824eeaf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764402325649
+status: 3
+tags: []
+user_id: runner
