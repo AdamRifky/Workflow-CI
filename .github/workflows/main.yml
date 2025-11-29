@@ -41,7 +41,9 @@ jobs:
       - name: Run mlflow project
         run: |
           rm -rf .git
+          cd MLProject
           mlflow run . --env-manager=local
+          cd ..
       
       # Get latest run_id
       - name: Get latest MLflow run_id
