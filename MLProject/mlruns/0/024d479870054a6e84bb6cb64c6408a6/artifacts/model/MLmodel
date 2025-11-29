@@ -1,0 +1,45 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 2.19.0
+model_size_bytes: 60209280
+model_uuid: 6e7e304f0aac43dea9ad5a3cb7e9f8ce
+run_id: 024d479870054a6e84bb6cb64c6408a6
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "Gender", "required": true}, {"type": "double",
+    "name": "Customer Type", "required": true}, {"type": "double", "name": "Type of
+    Travel", "required": true}, {"type": "double", "name": "Class", "required": true},
+    {"type": "double", "name": "Flight Distance", "required": true}, {"type": "double",
+    "name": "Inflight wifi service", "required": true}, {"type": "double", "name":
+    "Departure/Arrival time convenient", "required": true}, {"type": "double", "name":
+    "Ease of Online booking", "required": true}, {"type": "double", "name": "Gate
+    location", "required": true}, {"type": "double", "name": "Food and drink", "required":
+    true}, {"type": "double", "name": "Online boarding", "required": true}, {"type":
+    "double", "name": "Seat comfort", "required": true}, {"type": "double", "name":
+    "Inflight entertainment", "required": true}, {"type": "double", "name": "On-board
+    service", "required": true}, {"type": "double", "name": "Leg room service", "required":
+    true}, {"type": "double", "name": "Baggage handling", "required": true}, {"type":
+    "double", "name": "Checkin service", "required": true}, {"type": "double", "name":
+    "Inflight service", "required": true}, {"type": "double", "name": "Cleanliness",
+    "required": true}, {"type": "double", "name": "Departure Delay in Minutes", "required":
+    true}, {"type": "double", "name": "Age_Group", "required": true}]'
+  outputs: '[{"type": "long", "required": true}]'
+  params: null
+utc_time_created: '2025-11-29 07:30:18.598147'
