@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/MLProject/mlruns/0/90debf68b3b14d8ea34bb83871b1a066/artifacts
+end_time: 1764484290998
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 90debf68b3b14d8ea34bb83871b1a066
+run_name: enchanting-mink-1
+run_uuid: 90debf68b3b14d8ea34bb83871b1a066
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764484276819
+status: 3
+tags: []
+user_id: runner
